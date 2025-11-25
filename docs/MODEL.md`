@@ -1,0 +1,18 @@
+# Simulation Model
+
+This is a **simple, explainable model**, not a physical-layer simulator.
+
+## Towers
+
+Each `Tower` has:
+
+- `id: str`
+- `g_layers: tuple[str, ...]`
+- `base_latency_ms: float`
+- `jitter_ms: float`
+- `center_frequency_mhz: float`
+
+Latency is modelled as:
+
+```text
+latency_ms = base_latency_ms + random_normal(0, jitter_ms)
