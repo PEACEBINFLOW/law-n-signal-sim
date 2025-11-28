@@ -26,7 +26,8 @@ You can:
 ### Install (local dev)
 
 ```bash
-git clone https://github.com/YOUR_USER/law-n-signal-sim.git
+git clone https://github.com/PEACEBINFLOW/law-n-signal-sim/tree/main
+
 cd law-n-signal-sim
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
